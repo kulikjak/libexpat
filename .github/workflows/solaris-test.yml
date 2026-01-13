@@ -52,7 +52,7 @@ jobs:
         usesh: true
 
         prepare: |
-          set -x
+          set -e -x
           pkg install \
               autoconf \
               automake \
