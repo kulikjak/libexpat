@@ -60,7 +60,7 @@ jobs:
               cmake \
               gnu-make \
               gnu-sed \
-              libtool
+              libtool || true
 
         run: |
           set -e -x
