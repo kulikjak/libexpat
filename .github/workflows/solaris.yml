@@ -61,6 +61,14 @@ jobs:
               gmake \
               gsed \
               libtool
+          which gmake
+          which gsed
+          which cmake
+          which bash
+          gmake --version
+          gsed --version
+          cmake --version
+          bash --version
 
         run: |
           set -e -x
