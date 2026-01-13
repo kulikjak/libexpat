@@ -53,14 +53,7 @@ jobs:
 
         prepare: |
           set -e -x
-          pkg install \
-              autoconf \
-              automake \
-              bash \
-              cmake \
-              gnu-make \
-              gnu-sed \
-              libtool
+          pkg list
 
         run: |
           set -e -x
